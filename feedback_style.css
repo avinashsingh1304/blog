@@ -1,0 +1,66 @@
+body {
+    background:radial-gradient(cyan 10%,dodgerblue);
+}
+.content {
+    text-align: center;
+}
+
+.main {
+    color: grey;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+#diff {
+    color: grey;
+    background-color: darkseagreen;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+textarea {
+    color: grey;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+h2 {
+    color: blue;
+    font-size: 50px;
+    text-shadow: 2px 1px black;
+}
+.submitbutton {
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    background-color: green;
+    border: 0px;
+    font-size: 30px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.submitbutton:hover {
+    box-shadow: 10px 10px 15px grey;
+    width: 150px;
+    height: 80px;
+}
+a {
+    text-decoration: none;
+}
+
+.goback a {
+    border: 2px solid darkgreen;
+    background-color:darkgreen;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+}
+.goback a:hover {
+     box-shadow: 10px 10px 15px grey;
+}
+#foot a:hover {
+    color:red;
+}
